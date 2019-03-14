@@ -7,7 +7,6 @@
 	padding: 0 15px;
 	color: #fff;
 	z-index: 1000;
-	position: relative;
 	align-content: center;
 	display: flex;
 	align-items: center;
@@ -111,7 +110,8 @@
     width: 128px;
     border-radius: 50%;
     overflow: hidden;
-    cursor: pointer;
+	cursor: pointer;
+	border: 5px solid #1e5084;
 }
 #mainnav .user-img img{
     width: 100%;
