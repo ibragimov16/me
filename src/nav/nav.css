@@ -124,3 +124,6 @@
 #mainnav .new-room{
     cursor: pointer;
 }
+#mainnav .new-room:hover a{
+    color: #fff
+}

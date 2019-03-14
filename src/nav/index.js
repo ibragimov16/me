@@ -4,9 +4,10 @@ import MainNav from './mainnav'
 import Content from '../content'
 import MainPage from '../mainpage'
 import UserPage from '../userpage'
+import Room from '../room'
 import './nav.css'
 import power from '../img/power.svg'
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link, Redirect } from "react-router-dom";
 
 class Nav extends Component{
     constructor(props){
@@ -24,9 +25,11 @@ class Nav extends Component{
                         <div className="log-out" title="Выйти"><img src={power} /></div>
                     </nav>
                     <MainNav />
-                    <Route path="/newroom" component={Content}/>
+                    <Route path="/new" component={Content}/>
+                    <Route path="/room" component={Room}/>
                     <Route path="/main" component={MainPage}/>
                     <Route path="/user" component={UserPage}/>
+                    <Redirect to="/main" />
                 </React.Fragment>
             </Router>
         )
