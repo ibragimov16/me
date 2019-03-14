@@ -13,13 +13,11 @@ export default class MainNav extends Component{
                         <p className="user-name">User Name</p>
                     </div>
                     <ul id="mainnav-menu" className="list-group"> 
-                        <li className="list-header">Навигация</li>
-                        <li className=""><a href="#a">Ссылка 1 <i className="fa fa-link"></i></a></li> 
-                        <li className=""><a href="#a">Ссылка 2 <i className="fa fa-link"></i></a></li> 
-                        <li className=""><a href="#a">Ссылка 3 <i className="fa fa-link"></i></a></li> 
-                        <li className=""><a href="#a">Ссылка 4 <i className="fa fa-link"></i></a></li> 
-                        <li className=""><a href="#a">Ссылка 5 <i className="fa fa-link"></i></a></li> 
-                        <li className=""><a href="#a">Ссылка 6 <i className="fa fa-link"></i></a></li> 
+                        <li className="list-header">Мои залы</li>
+                        <li className=""><a href="#a">Зал №1 <i className="fa fa-link"></i></a></li>
+                    </ul>
+                    <ul className="list-group">
+                        <li className="list-header">Добавить Зал</li>
                     </ul>
                 </div>
             </nav>
