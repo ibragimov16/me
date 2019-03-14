@@ -8,10 +8,12 @@ export default class MainNav extends Component{
                 <nav id="mainnav-container">
                     <div id="mainnav">
                         <div className="user-info">
-                            <div className="user-img">
-                                <img src={userImg} />
-                            </div>
-                            <p className="user-name">User Name</p>
+                            <Link to="/user">
+                                <div className="user-img">
+                                    <img src={userImg} />
+                                </div>
+                                <p className="user-name">User Name</p>
+                            </Link>
                         </div>
                         <ul id="mainnav-menu" className="list-group"> 
                             <li className="list-header">Мои залы</li>

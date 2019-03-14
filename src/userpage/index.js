@@ -1,10 +1,10 @@
 import React, {Component} from 'react'
 
-export default class MainPage extends Component{
+export default class UserPage extends Component{
     render(){
         return(
             <div className="content">
-                <h4>Главная</h4>
+                <h4>Страница пользователя</h4>
             </div>
         )
     }
