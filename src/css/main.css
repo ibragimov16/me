@@ -1,5 +1,5 @@
 body {
-	background-color: #ecf0f5;
+	background-color: #eaeaea;
 	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 13px;
 	font-weight: normal;
@@ -7,4 +7,24 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased !important;
 	overflow-x: hidden;
+}
+
+.content{
+	height: calc(100vh - 50px);
+	width: 100%;
+	padding: 15px 15px 15px 235px;
+}
+.content .content-left-block{
+	position: relative;
+	top: -15px;
+	left: -15px;
+	background-color: #325982;
+	height: calc(100% + 30px);
+	width: 220px;
+	color: #fff;
+	padding: 15px;
+}
+.content .content-left-block ul{
+	list-style-type: none;
+	padding: 0;
 }
