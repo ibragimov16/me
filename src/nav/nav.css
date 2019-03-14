@@ -1,0 +1,126 @@
+.top-nav{
+	height: 50px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	background-color: #25476a;
+	padding: 0 15px;
+	color: #fff;
+	z-index: 1000;
+	position: relative;
+	align-content: center;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+}
+.top-nav .logo{
+	width: 205px
+}
+.top-nav a{
+	margin: 0;
+	color: #fff;
+	text-decoration: none;
+	cursor: pointer;
+	font-size: 1.75em;
+}
+.top-nav img{
+	width: 50px;
+	height: 50px;
+	margin-right: 15px
+}
+.nav-toggle{
+    color: #fff;
+    font-size: 24px;
+    padding: 5px;
+    cursor: pointer;
+}
+.nav-toggle i{
+	transition: 0.5s;
+}
+.top-nav .open-modal{
+	position: absolute;
+	right: 15px;
+}
+.top-nav .open-modal a{
+	font-size: 1em
+}
+
+
+
+#mainnav-container {
+	position: fixed;
+	width: 220px;
+	left: 0;
+	top: 50px;
+	bottom: 0;
+	z-index: 4000;
+	min-height: 100%;
+	margin: 0 auto;
+	text-decoration: none;
+	transition: 0.5s
+}
+#mainnav {
+	height: 100%;
+	background-color: #25476a;
+	color: #6b737c;
+	color: #fff;
+	width: 220px;
+	display: block;
+    float: left;
+}
+#mainnav .list-header {
+	font-size: 1em;
+	font-weight: 700;
+	color: #fff;
+	text-transform: uppercase;
+    padding: 10px 15px;
+}
+#mainnav .list-header:hover{
+	background-color: #25476a;
+}
+#mainnav ul{
+	list-style-type: none;
+}
+#mainnav ul li {
+    padding: 0px 15px;
+    position: relative;
+}
+#mainnav ul li a{
+	color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+	font-size: 1em;
+	height: 100%
+ }
+#mainnav ul li a i{
+	position: absolute;
+	right: 15px;
+	font-size: 10px;
+    margin: .25rem 0;
+}
+#mainnav ul li:hover{
+	background-color: #ecf0f5;
+}
+#mainnav ul li:hover a{
+	color: #333
+}
+#mainnav .user-info{
+    width: 90%;
+    margin: 20px auto 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+#mainnav .user-img{
+    width: 128px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+}
+#mainnav .user-name{
+    width: 100%;
+    margin-top: 10px;
+}
