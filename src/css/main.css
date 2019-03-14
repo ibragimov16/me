@@ -1,5 +1,5 @@
 body {
-	background-color: #eaeaea;
+	background-color: #325982;
 	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 13px;
 	font-weight: normal;
@@ -16,6 +16,8 @@ body {
 	margin-top: 50px;
 	padding: 15px 15px 0 15px;
 	overflow-y: auto;
+	background-color: #eaeaea;
+	border-top-left-radius: 5px;
 }
 .content .content-left-block{
 	position: relative;

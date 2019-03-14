@@ -20,7 +20,7 @@ export default class Room extends Component{
                     {tables.map((table, index) => {
                         return(
                             <div className="col-lg-2" key={index}>
-                                <div className="table-card">Стол №{index+1}</div>
+                                <div className="table-card">Стол № {index+1}</div>
                             </div>
                         )
                     })}

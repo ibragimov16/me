@@ -20,7 +20,7 @@ export default class MainNav extends Component{
                             <li className=""><Link to="/room">Зал №1 <i className="fa fa-link"></i></Link></li>
                         </ul>
                         <ul className="list-group">
-                            <li className="list-header new-room"><Link to="/new">Добавить Зал +</Link></li>
+                            <Link to="/new"><li className="list-header new-room">Добавить Зал +</li></Link>
                         </ul>
                     </div>
                 </nav>

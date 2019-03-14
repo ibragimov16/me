@@ -6,7 +6,7 @@ export default class LoginPage extends Component{
     render(){
         return(
             <div className="content login-page">
-                <div className="login-panel">
+                <div className="login-panel col-lg-3">
                     <form>
                         <img src={logo} />
                         <p>Онлайн система для <br / > отслеживания бронирований</p>
