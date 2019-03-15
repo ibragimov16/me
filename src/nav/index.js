@@ -22,7 +22,7 @@ class Nav extends Component{
             <Router>
                 <React.Fragment>
                     <nav className="top-nav">
-                        <div className="logo"><Link to="/main"><img src={logo} alt=""/>IN Booking</Link></div>
+                        <div className="logo"><Link to="/main"><img src={logo} alt=""/>Book IT</Link></div>
                         <div className="log-out" title="Выйти"><Link to="/login"><img src={power} /></Link></div>
                     </nav>
                     <MainNav />
